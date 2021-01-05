@@ -32,8 +32,8 @@
   <project path="poky" name="poky" />
 
   <!-- MANIFEST Repo -->
-  <project path="trustme/manifest" name="trustme_main" remote="trustme" />
-  <project path="trustme/build" name="trustme_build" remote="trustme" >
+  <project path="trustme/manifest" name="trustme_main" remote="trustme" revision="zeus" />
+  <project path="trustme/build" name="trustme_build" remote="trustme" revision="zeus" >
      <copyfile src="yocto/init_ws_ids.sh" dest="init_ws.sh" />
   </project>
   <project path="trustme/cml" name="device_fraunhofer_common_cml" remote="trustme" revision="zeus" />
@@ -54,6 +54,6 @@
   <project path="meta-freescale-distro" name="meta-freescale-distro" remote="freescale" />
 
   <!-- Toradex -->
-  <project path="meta-toradex-bsp-common" name="meta-toradex-bsp-common.git" remote="toradex" />
-  <project path="meta-toradex-nxp" name="meta-toradex-nxp.git" remote="toradex" />
+  <project path="meta-toradex-bsp-common" name="meta-toradex-bsp-common.git" remote="toradex" revision="cdbfe017be9096adbbfb4d3bbea0421e44f54cf3" />
+  <project path="meta-toradex-nxp" name="meta-toradex-nxp.git" remote="toradex" revision="8e762e3c8ec5c84f76254f442f37c70dfb7e1b68" />
 </manifest>
