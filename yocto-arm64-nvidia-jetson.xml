@@ -37,7 +37,7 @@
 
   <!-- MANIFEST Repo -->
   <project path="trustme/manifest" name="trustme_main" remote="trustme" />
-  <project path="trustme/build" name="trustme_build" remote="trustme" >
+  <project path="trustme/build" name="trustme_build" remote="myprot" >
      <copyfile src="yocto/init_ws_ids.sh" dest="init_ws.sh" />
   </project>
   <project path="trustme/cml" name="device_fraunhofer_common_cml" remote="trustme" />
